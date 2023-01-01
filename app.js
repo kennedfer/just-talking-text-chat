@@ -122,7 +122,7 @@ let userId;
 async function main(){
     userId = await getUserInfo();
     await renderMessages();
-    //setInterval(await renderMessages, 5000);
+    setInterval(await renderMessages, 5000);
     buttonSend.onclick = ()=>{
         if(inputMessage.value!=""){
             buttonSend.disabled = true;

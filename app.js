@@ -23,7 +23,6 @@ async function checkIfNicknameIsValid(nick){
 async function getUserInfo() {
      //localStorage is awesome 
     let userId = localStorage.getItem('nickname');
-    let userColor = localStorage.getItem('color');
     
     if (!userId) {
         userId = prompt('Hi, Welcome, Whats your nickname?');
@@ -40,7 +39,7 @@ async function getUserInfo() {
         localStorage.setItem('nickname', userId);    
     }
 
-    return {userId, userColor};
+    return userId;
 }
 
 async function getMessages(){
@@ -118,10 +117,10 @@ async function renderMessages(){
 let messagesContainer = document.getElementById("messages-container");
 let buttonSend = document.getElementById("button-send");
 let inputMessage = document.getElementById("input-message");
-let {userId,userColor} = await getUserInfo();
+let userId;
 
 async function main(){
-    console.log(userId);
+    userId = await getUserInfo();
     await renderMessages();
     //setInterval(await renderMessages, 5000);
     buttonSend.onclick = ()=>{

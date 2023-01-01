@@ -1,4 +1,4 @@
-# just-talking-text-chat
+# JustTalking Text Chat
 ### A practical example of a simple text chat
 Some details:
 - this chat use only one database with the jsonbin api

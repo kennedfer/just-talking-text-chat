@@ -1,6 +1,6 @@
 # JustTalking Text Chat
 ### A practical example of a simple text chat
-acess in: https://kennedfer.github.io/just-talking-text-chat/
+<a href="https://kennedfer.github.io/just-talking-text-chat/" target="_blank">Lets go</a>
 ### Some details:
 - this chat use only one database with the jsonbin api
 - this has made to practice (and for fun), more technical concepts referring to online chats or databases will not be covered, at least not in this project
@@ -11,4 +11,6 @@ acess in: https://kennedfer.github.io/just-talking-text-chat/
 - fontawesome has used too send icon
 - create a rest api can make some things more secure (like urls), faster and "better" 
 
+<p align="center">
 by kennedfer
+</p>

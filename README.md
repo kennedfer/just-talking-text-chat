@@ -9,5 +9,6 @@ acess in: https://kennedfer.github.io/just-talking-text-chat/
 - some things like check users names can be made better with two (or more) databases
 - maybe some things grow up too much in resolutions greatter than 1366x768 (my res)
 - fontawesome has used too send icon
+- create a rest api can make some things more secure (like urls), faster and "better" 
 
 by kennedfer
